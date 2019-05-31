@@ -29,30 +29,49 @@
 .card-image .social-media {
   position: relative;
   font-size: 20px;
-  top: 115px;
-  right: 215px;
-  background-color: red;
-  width: 100px;
+  top: 120px;
+  right: 110px;
+  width: 115px;
   margin-left: 100px;
   margin-right: 1px;
-  float: left;
+  /*float: left;*/
 }
 
 .card-image .social-media li {
   display: inline-block;
   position: relative;
   margin-right: 10px;
-  border-radius: 100px;
+}
+
+.card-image .social-media li a {
+  color: #508fb8;
+  text-decoration: none;
 }
 
 .card-data h2 {
   font-family: Raleway;
-  font-size: 32px;
+  font-size: 22px;
   display: inline-block;
   line-height: 100px;
+  position: relative;
+  top: -50px;
 }
 
 .card-data p {
   font-family: Raleway;
   font-size: 10px;
+  position: relative;
+  top: -70px;
+  width: 370px;
+
+}
+
+.card-data a {
+  background-color: #c7c7c7;
+  font-family: Raleway;
+  padding: 8px 16px 8px 16px;
+  position: relative;
+  top: -50px;
+  color: white;
+  text-decoration: none;
 }
